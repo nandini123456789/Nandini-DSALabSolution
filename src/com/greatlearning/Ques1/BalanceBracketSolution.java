@@ -6,7 +6,7 @@ import java.util.Stack;
 public class BalanceBracketSolution {
 
 	public boolean CheckBalancedBrackets(String st) {
-		//converting the bracket string to
+		//converting the bracket string to char array
 		char[] bracketString=st.toCharArray();
 		Stack<Character> bracketStack=new Stack<>();
 		for ( char x: bracketString) {
